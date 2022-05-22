@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EBF3264261F3B470059C5E8 /* lamb.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EBF3263261F3B470059C5E8 /* lamb.png */; };
+		3F14CC391F74F78D0088E5A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F14CC381F74F78D0088E5A4 /* main.m */; };
+		3F14CC3C1F74F78D0088E5A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F14CC3B1F74F78D0088E5A4 /* AppDelegate.m */; };
+		3F14CC3F1F74F78D0088E5A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F14CC3E1F74F78D0088E5A4 /* ViewController.m */; };
+		3F14CC421F74F78D0088E5A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F14CC401F74F78D0088E5A4 /* Main.storyboard */; };
+		3F14CC441F74F78D0088E5A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F14CC431F74F78D0088E5A4 /* Assets.xcassets */; };
+		3F14CC471F74F78D0088E5A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F14CC451F74F78D0088E5A4 /* LaunchScreen.storyboard */; };
+		3F14CC501F74FA130088E5A4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F14CC4F1F74FA130088E5A4 /* TableViewController.m */; };
+		3F14CC531F74FAEF0088E5A4 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F14CC521F74FAEF0088E5A4 /* TableViewCell.m */; };
+		3F14CC641F7507ED0088E5A4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F14CC631F7507ED0088E5A4 /* DetailViewController.m */; };
+		3F7F31FF25F20908007B1F2C /* gtr.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F31FE25F20908007B1F2C /* gtr.png */; };
+		3F7F320125F20912007B1F2C /* lambor.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F320025F20912007B1F2C /* lambor.png */; };
+		3F7F320325F2091F007B1F2C /* ferrai.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F320225F2091F007B1F2C /* ferrai.png */; };
+		3F7F320B25F20F6A007B1F2C /* Ferrari.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F320A25F20F6A007B1F2C /* Ferrari.mp4 */; };
+		3F7F320D25F2101C007B1F2C /* lambo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F320C25F2101C007B1F2C /* lambo.mp4 */; };
+		3F7F320F25F2105A007B1F2C /* GTR.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F320E25F2105A007B1F2C /* GTR.mp4 */; };
+		3F7F321725F21342007B1F2C /* GTR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F321625F21342007B1F2C /* GTR.mp3 */; };
+		3F7F321A25F21361007B1F2C /* Lambo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F321825F21361007B1F2C /* Lambo.mp3 */; };
+		3F7F321B25F21361007B1F2C /* Ferrari.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F321925F21361007B1F2C /* Ferrari.mp3 */; };
+		3F9B4C8A25429FE8003434EE /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B4C8325429FE8003434EE /* dog.jpg */; };
+		3F9B4C8B25429FE8003434EE /* horse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B4C8425429FE8003434EE /* horse.jpg */; };
+		3F9B4C8C25429FE8003434EE /* night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B4C8525429FE8003434EE /* night.mp3 */; };
+		3F9B4C8D25429FE8003434EE /* dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B4C8625429FE8003434EE /* dog.wav */; };
+		3F9B4C8E25429FE8003434EE /* horse.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B4C8725429FE8003434EE /* horse.wav */; };
+		3F9B4C8F25429FE8003434EE /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B4C8825429FE8003434EE /* cat.jpg */; };
+		3F9B4C9025429FE8003434EE /* cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B4C8925429FE8003434EE /* cat.wav */; };
+		46F01ED61F7DF7F500ECBCF9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F01ED51F7DF7F500ECBCF9 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EBF325F261F39B10059C5E8 /* SuperCar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperCar-Bridging-Header.h"; sourceTree = "<group>"; };
+		3EBF3263261F3B470059C5E8 /* lamb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamb.png; sourceTree = "<group>"; };
+		3F14CC341F74F78D0088E5A4 /* supercar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = supercar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F14CC381F74F78D0088E5A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F14CC3A1F74F78D0088E5A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F14CC3B1F74F78D0088E5A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F14CC3D1F74F78D0088E5A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F14CC3E1F74F78D0088E5A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F14CC411F74F78D0088E5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F14CC431F74F78D0088E5A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F14CC461F74F78D0088E5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F14CC481F74F78D0088E5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F14CC4E1F74FA130088E5A4 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3F14CC4F1F74FA130088E5A4 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3F14CC511F74FAEF0088E5A4 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		3F14CC521F74FAEF0088E5A4 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		3F14CC621F7507ED0088E5A4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3F14CC631F7507ED0088E5A4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3F7F31FE25F20908007B1F2C /* gtr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gtr.png; sourceTree = "<group>"; };
+		3F7F320025F20912007B1F2C /* lambor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lambor.png; sourceTree = "<group>"; };
+		3F7F320225F2091F007B1F2C /* ferrai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferrai.png; sourceTree = "<group>"; };
+		3F7F320A25F20F6A007B1F2C /* Ferrari.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ferrari.mp4; sourceTree = "<group>"; };
+		3F7F320C25F2101C007B1F2C /* lambo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lambo.mp4; sourceTree = "<group>"; };
+		3F7F320E25F2105A007B1F2C /* GTR.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GTR.mp4; sourceTree = "<group>"; };
+		3F7F321625F21342007B1F2C /* GTR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GTR.mp3; sourceTree = "<group>"; };
+		3F7F321825F21361007B1F2C /* Lambo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Lambo.mp3; sourceTree = "<group>"; };
+		3F7F321925F21361007B1F2C /* Ferrari.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ferrari.mp3; sourceTree = "<group>"; };
+		3F9B4C8325429FE8003434EE /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+		3F9B4C8425429FE8003434EE /* horse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horse.jpg; sourceTree = "<group>"; };
+		3F9B4C8525429FE8003434EE /* night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = night.mp3; sourceTree = "<group>"; };
+		3F9B4C8625429FE8003434EE /* dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dog.wav; sourceTree = "<group>"; };
+		3F9B4C8725429FE8003434EE /* horse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = horse.wav; sourceTree = "<group>"; };
+		3F9B4C8825429FE8003434EE /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		3F9B4C8925429FE8003434EE /* cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cat.wav; sourceTree = "<group>"; };
+		46F01ED51F7DF7F500ECBCF9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F14CC311F74F78D0088E5A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F01ED61F7DF7F500ECBCF9 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F14CC2B1F74F78D0088E5A4 = {
+			isa = PBXGroup;
+			children = (
+				3F14CC621F7507ED0088E5A4 /* DetailViewController.h */,
+				3F14CC631F7507ED0088E5A4 /* DetailViewController.m */,
+				3F14CC511F74FAEF0088E5A4 /* TableViewCell.h */,
+				3F14CC521F74FAEF0088E5A4 /* TableViewCell.m */,
+				3F14CC4E1F74FA130088E5A4 /* TableViewController.h */,
+				3F14CC4F1F74FA130088E5A4 /* TableViewController.m */,
+				3F14CC361F74F78D0088E5A4 /* SuperCar */,
+				3F14CC351F74F78D0088E5A4 /* Products */,
+				3F9B4C8225429FE8003434EE /* Table_Sound_Source */,
+				3F14CC541F74FCA80088E5A4 /* Table_Image_Source */,
+				3F14CC581F74FCA80088E5A4 /* Table_Movie_Source */,
+				46F01ED41F7DF7F500ECBCF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F14CC351F74F78D0088E5A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F14CC341F74F78D0088E5A4 /* supercar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F14CC361F74F78D0088E5A4 /* SuperCar */ = {
+			isa = PBXGroup;
+			children = (
+				3F14CC3A1F74F78D0088E5A4 /* AppDelegate.h */,
+				3F14CC3B1F74F78D0088E5A4 /* AppDelegate.m */,
+				3F14CC3D1F74F78D0088E5A4 /* ViewController.h */,
+				3F14CC3E1F74F78D0088E5A4 /* ViewController.m */,
+				3F14CC401F74F78D0088E5A4 /* Main.storyboard */,
+				3F14CC431F74F78D0088E5A4 /* Assets.xcassets */,
+				3F14CC451F74F78D0088E5A4 /* LaunchScreen.storyboard */,
+				3F14CC481F74F78D0088E5A4 /* Info.plist */,
+				3F14CC371F74F78D0088E5A4 /* Supporting Files */,
+				3EBF325F261F39B10059C5E8 /* SuperCar-Bridging-Header.h */,
+			);
+			path = SuperCar;
+			sourceTree = "<group>";
+		};
+		3F14CC371F74F78D0088E5A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F14CC381F74F78D0088E5A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F14CC541F74FCA80088E5A4 /* Table_Image_Source */ = {
+			isa = PBXGroup;
+			children = (
+				3EBF3263261F3B470059C5E8 /* lamb.png */,
+				3F7F31FE25F20908007B1F2C /* gtr.png */,
+				3F7F320025F20912007B1F2C /* lambor.png */,
+				3F7F320225F2091F007B1F2C /* ferrai.png */,
+			);
+			path = Table_Image_Source;
+			sourceTree = "<group>";
+		};
+		3F14CC581F74FCA80088E5A4 /* Table_Movie_Source */ = {
+			isa = PBXGroup;
+			children = (
+				3F7F320E25F2105A007B1F2C /* GTR.mp4 */,
+				3F7F320C25F2101C007B1F2C /* lambo.mp4 */,
+				3F7F320A25F20F6A007B1F2C /* Ferrari.mp4 */,
+			);
+			path = Table_Movie_Source;
+			sourceTree = "<group>";
+		};
+		3F9B4C8225429FE8003434EE /* Table_Sound_Source */ = {
+			isa = PBXGroup;
+			children = (
+				3F7F321625F21342007B1F2C /* GTR.mp3 */,
+				3F7F321925F21361007B1F2C /* Ferrari.mp3 */,
+				3F7F321825F21361007B1F2C /* Lambo.mp3 */,
+				3F9B4C8325429FE8003434EE /* dog.jpg */,
+				3F9B4C8425429FE8003434EE /* horse.jpg */,
+				3F9B4C8525429FE8003434EE /* night.mp3 */,
+				3F9B4C8625429FE8003434EE /* dog.wav */,
+				3F9B4C8725429FE8003434EE /* horse.wav */,
+				3F9B4C8925429FE8003434EE /* cat.wav */,
+				3F9B4C8825429FE8003434EE /* cat.jpg */,
+			);
+			path = Table_Sound_Source;
+			sourceTree = "<group>";
+		};
+		46F01ED41F7DF7F500ECBCF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46F01ED51F7DF7F500ECBCF9 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F14CC331F74F78D0088E5A4 /* SuperCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F14CC4B1F74F78D0088E5A4 /* Build configuration list for PBXNativeTarget "SuperCar" */;
+			buildPhases = (
+				3F14CC301F74F78D0088E5A4 /* Sources */,
+				3F14CC311F74F78D0088E5A4 /* Frameworks */,
+				3F14CC321F74F78D0088E5A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperCar;
+			productName = MovieTable;
+			productReference = 3F14CC341F74F78D0088E5A4 /* supercar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F14CC2C1F74F78D0088E5A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3F14CC331F74F78D0088E5A4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 1240;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F14CC2F1F74F78D0088E5A4 /* Build configuration list for PBXProject "SuperCar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 3F14CC2B1F74F78D0088E5A4;
+			productRefGroup = 3F14CC351F74F78D0088E5A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F14CC331F74F78D0088E5A4 /* SuperCar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F14CC321F74F78D0088E5A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7F321A25F21361007B1F2C /* Lambo.mp3 in Resources */,
+				3F9B4C8F25429FE8003434EE /* cat.jpg in Resources */,
+				3F14CC471F74F78D0088E5A4 /* LaunchScreen.storyboard in Resources */,
+				3F7F321725F21342007B1F2C /* GTR.mp3 in Resources */,
+				3F7F320125F20912007B1F2C /* lambor.png in Resources */,
+				3F14CC441F74F78D0088E5A4 /* Assets.xcassets in Resources */,
+				3F14CC421F74F78D0088E5A4 /* Main.storyboard in Resources */,
+				3F7F31FF25F20908007B1F2C /* gtr.png in Resources */,
+				3F9B4C8B25429FE8003434EE /* horse.jpg in Resources */,
+				3F7F320F25F2105A007B1F2C /* GTR.mp4 in Resources */,
+				3F9B4C8A25429FE8003434EE /* dog.jpg in Resources */,
+				3EBF3264261F3B470059C5E8 /* lamb.png in Resources */,
+				3F7F321B25F21361007B1F2C /* Ferrari.mp3 in Resources */,
+				3F9B4C8D25429FE8003434EE /* dog.wav in Resources */,
+				3F9B4C9025429FE8003434EE /* cat.wav in Resources */,
+				3F7F320B25F20F6A007B1F2C /* Ferrari.mp4 in Resources */,
+				3F9B4C8C25429FE8003434EE /* night.mp3 in Resources */,
+				3F9B4C8E25429FE8003434EE /* horse.wav in Resources */,
+				3F7F320325F2091F007B1F2C /* ferrai.png in Resources */,
+				3F7F320D25F2101C007B1F2C /* lambo.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F14CC301F74F78D0088E5A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F14CC3F1F74F78D0088E5A4 /* ViewController.m in Sources */,
+				3F14CC3C1F74F78D0088E5A4 /* AppDelegate.m in Sources */,
+				3F14CC391F74F78D0088E5A4 /* main.m in Sources */,
+				3F14CC531F74FAEF0088E5A4 /* TableViewCell.m in Sources */,
+				3F14CC501F74FA130088E5A4 /* TableViewController.m in Sources */,
+				3F14CC641F7507ED0088E5A4 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F14CC401F74F78D0088E5A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F14CC411F74F78D0088E5A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F14CC451F74F78D0088E5A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F14CC461F74F78D0088E5A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F14CC491F74F78D0088E5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F14CC4A1F74F78D0088E5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F14CC4C1F74F78D0088E5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/SuperCar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vtc.SuperCar;
+				PRODUCT_NAME = supercar;
+				SWIFT_OBJC_BRIDGING_HEADER = "SuperCar/SuperCar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3F14CC4D1F74F78D0088E5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/SuperCar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vtc.SuperCar;
+				PRODUCT_NAME = supercar;
+				SWIFT_OBJC_BRIDGING_HEADER = "SuperCar/SuperCar-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F14CC2F1F74F78D0088E5A4 /* Build configuration list for PBXProject "SuperCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F14CC491F74F78D0088E5A4 /* Debug */,
+				3F14CC4A1F74F78D0088E5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F14CC4B1F74F78D0088E5A4 /* Build configuration list for PBXNativeTarget "SuperCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F14CC4C1F74F78D0088E5A4 /* Debug */,
+				3F14CC4D1F74F78D0088E5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F14CC2C1F74F78D0088E5A4 /* Project object */;
+}
